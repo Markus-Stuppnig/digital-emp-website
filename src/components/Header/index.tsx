@@ -15,7 +15,7 @@ const Header = () => {
   };
 
   // Sticky Navbar
-  const [sticky, setSticky] = useState(true);
+  const [sticky, setSticky] = useState(false);
   // const [transperency, setTransperency] = useState(0);
 
   const handleStickyNavbar = () => {
@@ -55,7 +55,7 @@ const Header = () => {
     <>
       <header
         // style={{ opacity: transperency / 100 }}
-        className={`ud-header fixed left-0 top-0 z-[999] flex w-full items-center bg-white opacity-80 backdrop-blur-[5px]`}
+        className={`ud-header bg-primary1 left-0 top-0 z-[999] flex w-full items-center opacity-100`}
       >
         <div className="container">
           <div className="relative flex items-center justify-center">
@@ -98,7 +98,7 @@ const Header = () => {
                 </button>
                 <nav
                   id="navbarCollapse"
-                  className={`navbar visibility absolute right-0 top-full z-30 w-[250px] rounded border-[.5px] border-body-color/50 bg-white px-6 py-4 opacity-100 duration-300 dark:border-body-color/20 dark:bg-dark-2 lg:visible lg:static lg:w-auto lg:border-none lg:!bg-transparent lg:p-0 lg:opacity-100 lg:dark:bg-transparent ${
+                  className={`navbar visibility absolute right-0 top-full z-30 w-[250px] rounded border-[.5px] border-body-color/50 px-6 py-4 opacity-100 duration-300 lg:visible lg:static lg:w-auto lg:border-none lg:!bg-transparent lg:p-0 lg:opacity-100 ${
                     navbarOpen
                       ? "visibility top-full opacity-100"
                       : "invisible top-[120%] opacity-0"
