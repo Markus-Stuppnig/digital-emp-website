@@ -6,7 +6,7 @@ const Hero = () => {
     <>
       <section
         id="home"
-        className="relative overflow-hidden bg-primary pt-[120px] md:pt-[130px] lg:pt-[160px]"
+        className="bg-primary1 relative overflow-hidden pt-[120px] md:pt-[130px] lg:pt-[160px]"
       >
         <div className="container">
           <div className="-mx-4 flex flex-wrap items-center">
@@ -16,13 +16,13 @@ const Hero = () => {
                 data-wow-delay=".2s"
               >
                 <h1 className="mb-6 text-3xl font-bold leading-snug text-white sm:text-4xl sm:leading-snug lg:text-5xl lg:leading-[1.2]">
-                  Open-source SaaS Starter Kit and Boilerplate for Next.js
+                  Digital Emergency Medicine Physicians
                 </h1>
                 <p className="mx-auto mb-9 max-w-[600px] text-base font-medium text-white sm:text-lg sm:leading-[1.44]">
-                  Next.js SaaS Boilerplate and Starter Kit designed and built
-                  for SaaS startups. It comes with all necessary integrations,
-                  pages, and components you need to launch a feature-rich SaaS
-                  websites.
+                  The app revolutionizes the initial treatment of strokes by
+                  allowing rescue personnel to communicate directly with an AI
+                  that assists with immediate diagnosis and action
+                  recommendations.
                 </p>
                 <ul className="mb-10 flex flex-wrap items-center justify-center gap-5">
                   <li>
@@ -30,7 +30,7 @@ const Hero = () => {
                       href="https://nextjstemplates.com/templates/play"
                       className="inline-flex items-center justify-center rounded-md bg-white px-7 py-[14px] text-center text-base font-medium text-dark shadow-1 transition duration-300 ease-in-out hover:bg-gray-2"
                     >
-                      Download Now
+                      Wanna know more
                     </Link>
                   </li>
                   <li>
@@ -44,7 +44,6 @@ const Hero = () => {
                         width="24"
                         height="24"
                         viewBox="0 0 24 24"
-                        fill="none"
                         xmlns="http://www.w3.org/2000/svg"
                       >
                         <g clipPath="url(#clip0_2005_10818)">
@@ -63,7 +62,7 @@ const Hero = () => {
 
                 <div>
                   <p className="mb-4 text-center text-base font-medium text-white/60">
-                    Play is now available for all popular frameworks
+                    Digital EMP works on all devices and browsers
                   </p>
                   <div
                     className="wow fadeInUp flex items-center justify-center gap-4 text-center"
