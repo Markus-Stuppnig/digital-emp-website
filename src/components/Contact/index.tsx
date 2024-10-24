@@ -2,7 +2,7 @@ const Contact = () => {
   return (
     <section id="contact" className="relative py-20 md:py-[120px]">
       <div className="absolute left-0 top-0 -z-[1] h-full w-full dark:bg-dark"></div>
-      <div className="absolute left-0 top-0 -z-[1] h-1/2 w-full bg-[#E9F9FF] dark:bg-dark-700 lg:h-[45%] xl:h-1/2"></div>
+      <div className="bg-primary1light absolute left-0 top-0 -z-[1] h-1/2 w-full dark:bg-dark-700 lg:h-[45%] xl:h-1/2"></div>
       <div className="container px-4">
         <div className="-mx-4 flex flex-wrap items-center">
           <div className="w-full px-4 lg:w-7/12 xl:w-8/12">
@@ -17,7 +17,7 @@ const Contact = () => {
               </div>
               <div className="mb-12 flex flex-wrap justify-between lg:mb-0">
                 <div className="mb-8 flex w-[330px] max-w-full">
-                  <div className="mr-6 text-[32px] text-primary">
+                  <div className="text-primary1 mr-6 text-[32px]">
                     <svg
                       width="29"
                       height="35"
@@ -38,7 +38,7 @@ const Contact = () => {
                   </div>
                 </div>
                 <div className="mb-8 flex w-[330px] max-w-full">
-                  <div className="mr-6 text-[32px] text-primary">
+                  <div className="text-primary1 mr-6 text-[32px]">
                     <svg
                       width="34"
                       height="25"
@@ -84,7 +84,7 @@ const Contact = () => {
                     type="text"
                     name="fullName"
                     placeholder="Adam Gelius"
-                    className="w-full border-0 border-b border-[#f1f1f1] bg-transparent pb-3 text-dark placeholder:text-body-color/60 focus:border-primary focus:outline-none dark:border-dark-3 dark:text-white"
+                    className="focus:border-primary1 w-full border-0 border-b border-[#f1f1f1] bg-transparent pb-3 text-dark placeholder:text-body-color/60 focus:outline-none dark:border-dark-3 dark:text-white"
                   />
                 </div>
                 <div className="mb-[22px]">
@@ -98,7 +98,7 @@ const Contact = () => {
                     type="email"
                     name="email"
                     placeholder="example@yourmail.com"
-                    className="w-full border-0 border-b border-[#f1f1f1] bg-transparent pb-3 text-dark placeholder:text-body-color/60 focus:border-primary focus:outline-none dark:border-dark-3 dark:text-white"
+                    className="focus:border-primary1 w-full border-0 border-b border-[#f1f1f1] bg-transparent pb-3 text-dark placeholder:text-body-color/60 focus:outline-none dark:border-dark-3 dark:text-white"
                   />
                 </div>
                 <div className="mb-[22px]">
@@ -112,7 +112,7 @@ const Contact = () => {
                     type="text"
                     name="phone"
                     placeholder="+885 1254 5211 552"
-                    className="w-full border-0 border-b border-[#f1f1f1] bg-transparent pb-3 text-dark placeholder:text-body-color/60 focus:border-primary focus:outline-none dark:border-dark-3 dark:text-white"
+                    className="focus:border-primary1 w-full border-0 border-b border-[#f1f1f1] bg-transparent pb-3 text-dark placeholder:text-body-color/60 focus:outline-none dark:border-dark-3 dark:text-white"
                   />
                 </div>
                 <div className="mb-[30px]">
@@ -126,13 +126,13 @@ const Contact = () => {
                     name="message"
                     rows={1}
                     placeholder="type your message here"
-                    className="w-full resize-none border-0 border-b border-[#f1f1f1] bg-transparent pb-3 text-dark placeholder:text-body-color/60 focus:border-primary focus:outline-none dark:border-dark-3 dark:text-white"
+                    className="focus:border-primary1 w-full resize-none border-0 border-b border-[#f1f1f1] bg-transparent pb-3 text-dark placeholder:text-body-color/60 focus:outline-none dark:border-dark-3 dark:text-white"
                   ></textarea>
                 </div>
                 <div className="mb-0">
                   <button
                     type="submit"
-                    className="inline-flex items-center justify-center rounded-md bg-primary px-10 py-3 text-base font-medium text-white transition duration-300 ease-in-out hover:bg-primary/90"
+                    className="bg-primary1 hover:bg-primary1/90 inline-flex items-center justify-center rounded-md px-10 py-3 text-base font-medium text-white transition duration-300 ease-in-out"
                   >
                     Send
                   </button>

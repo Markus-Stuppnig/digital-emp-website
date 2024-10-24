@@ -5,8 +5,8 @@ import SingleTeam from "./SingleTeam";
 const teamData: TeamType[] = [
   {
     id: 1,
-    name: "Adveen Desuza",
-    designation: "UI Designer",
+    name: "Markus Stuppnig",
+    designation: "Project Manager & Backend Developer",
     image: "/images/team/team-01.png",
     facebookLink: "/#",
     twitterLink: "/#",
@@ -14,8 +14,8 @@ const teamData: TeamType[] = [
   },
   {
     id: 2,
-    name: "Jezmin uniya",
-    designation: "Product Designer",
+    name: "Felix Dahmen",
+    designation: "Data Scientist & AI Expert",
     image: "/images/team/team-02.png",
     facebookLink: "/#",
     twitterLink: "/#",
@@ -23,8 +23,8 @@ const teamData: TeamType[] = [
   },
   {
     id: 3,
-    name: "Andrieo Gloree",
-    designation: "App Developer",
+    name: "Benjamin Princ",
+    designation: "Frontend Developer & UI/UX Designer",
     image: "/images/team/team-03.png",
     facebookLink: "/#",
     twitterLink: "/#",
@@ -32,8 +32,8 @@ const teamData: TeamType[] = [
   },
   {
     id: 4,
-    name: "Jackie Sanders",
-    designation: "Content Writer",
+    name: "Christof Zlabinger",
+    designation: "Data Scientist & AI Expert",
     image: "/images/team/team-04.png",
     facebookLink: "/#",
     twitterLink: "/#",
@@ -52,7 +52,7 @@ const Team = () => {
           <SectionTitle
             subtitle="Our Team"
             title="Meet Our Team"
-            paragraph="There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form."
+            paragraph="Together we are a team of highly motivated and skilled students who developed DIEMP as part of our diploma project."
             width="640px"
             center
           />

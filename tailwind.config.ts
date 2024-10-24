@@ -12,6 +12,7 @@ const config: Config = {
       white: "#FFFFFF",
       white1: "#FFFFFF",
       primary1: "#EB2340",
+      primary1light: "#EB234011",
     },
     extend: {
       opacity: {
