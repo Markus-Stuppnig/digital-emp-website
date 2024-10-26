@@ -38,7 +38,7 @@ const teamData: TeamType[] = [
     id: 4,
     name: "Christof Zlabinger",
     designation: "Data Scientist & AI Expert",
-    image: "/images/team/team-04.png",
+    image: "/images/team/christof.png",
     email: "czlabinger@student.tgm.ac.at",
     facebookLink: "/#",
     twitterLink: "/#",
