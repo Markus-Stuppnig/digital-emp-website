@@ -13,9 +13,9 @@ import { getAllPosts } from "@/utils/markdown";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Play Next.js - SaaS Starter Kit and Boilerplate for Next.js",
+  title: "Digital Emergency Medicine Physician",
   description:
-    "Free Next.js SaaS Boilerplate and Starter Kit designed and built for SaaS startups. It comes with all necessary integrations, pages, and components you need to launch a feature-rich SaaS websites.",
+    "The app revolutionizes the initial treatment of strokes by allowing rescue personnel to communicate directly with an AI that assists with immediate diagnosis and action recommendations.",
 };
 
 export default function Home() {
@@ -25,15 +25,13 @@ export default function Home() {
     <main>
       <ScrollUp />
       <Hero />
-      <Features />
       <About />
+      <Features />
       <CallToAction />
-      <Testimonials />
       <Faq />
       <Team />
       <HomeBlogSection posts={posts} />
       <Contact />
-      <Clients />
     </main>
   );
 }

@@ -3,7 +3,11 @@ export type TeamType = {
   name: string;
   designation: string;
   image: string;
-  facebookLink: string;
-  twitterLink: string;
-  instagramLink: string;
+  email: string;
+  weblink?: string;
+  facebookLink?: string;
+  twitterLink?: string;
+  instagramLink?: string;
+  githubLink?: string;
+  linkedinLink?: string;
 };

@@ -6,7 +6,7 @@ const Hero = () => {
     <>
       <section
         id="home"
-        className="bg-primary1 relative overflow-hidden pt-[120px] md:pt-[130px] lg:pt-[160px]"
+        className="relative overflow-hidden bg-primary1 pt-[120px] md:pt-[130px] lg:pt-[160px]"
       >
         <div className="container">
           <div className="-mx-4 flex flex-wrap items-center">
@@ -27,7 +27,7 @@ const Hero = () => {
                 <ul className="mb-10 flex flex-wrap items-center justify-center gap-5">
                   <li>
                     <Link
-                      href="https://nextjstemplates.com/templates/play"
+                      href="/blogs"
                       className="inline-flex items-center justify-center rounded-md bg-white px-7 py-[14px] text-center text-base font-medium text-dark shadow-1 transition duration-300 ease-in-out hover:bg-gray-2"
                     >
                       Wanna know more
@@ -35,7 +35,7 @@ const Hero = () => {
                   </li>
                   <li>
                     <Link
-                      href="https://github.com/nextjsTemplates/play-nextjs"
+                      href="https://github.com/Markus-Stuppnig/digital-emp-website"
                       target="_blank"
                       className="flex items-center gap-4 rounded-md bg-white/[0.12] px-6 py-[14px] text-base font-medium text-white transition duration-300 ease-in-out hover:bg-white hover:text-dark"
                     >
@@ -156,7 +156,7 @@ const Hero = () => {
                       target="_blank"
                     >
                       <svg
-                        className="mt-0.5 fill-current"
+                        className="fill-current mt-0.5"
                         width="30"
                         height="38"
                         viewBox="0 0 30 38"

@@ -7,16 +7,19 @@ const teamData: TeamType[] = [
     id: 1,
     name: "Markus Stuppnig",
     designation: "Project Manager & Backend Developer",
-    image: "/images/team/team-01.png",
-    facebookLink: "/#",
-    twitterLink: "/#",
-    instagramLink: "/#",
+    image: "/images/team/markus.png",
+    email: "mstuppnig@student.tgm.ac.at",
+    weblink: "https://www.stuppnig.net",
+    instagramLink: "https://instagram.com/markusstuppnig",
+    githubLink: "https://github.com/Markus-Stuppnig",
+    linkedinLink: "https://www.linkedin.com/in/markus-stuppnig/",
   },
   {
     id: 2,
     name: "Felix Dahmen",
     designation: "Data Scientist & AI Expert",
     image: "/images/team/team-02.png",
+    email: "fdahmen@student.tgm.ac.at",
     facebookLink: "/#",
     twitterLink: "/#",
     instagramLink: "/#",
@@ -25,7 +28,8 @@ const teamData: TeamType[] = [
     id: 3,
     name: "Benjamin Princ",
     designation: "Frontend Developer & UI/UX Designer",
-    image: "/images/team/team-03.png",
+    image: "/images/team/benjamin.jpeg",
+    email: "bprinc@student.tgm.ac.at",
     facebookLink: "/#",
     twitterLink: "/#",
     instagramLink: "/#",
@@ -35,6 +39,7 @@ const teamData: TeamType[] = [
     name: "Christof Zlabinger",
     designation: "Data Scientist & AI Expert",
     image: "/images/team/team-04.png",
+    email: "czlabinger@student.tgm.ac.at",
     facebookLink: "/#",
     twitterLink: "/#",
     instagramLink: "/#",
@@ -52,15 +57,15 @@ const Team = () => {
           <SectionTitle
             subtitle="Our Team"
             title="Meet Our Team"
-            paragraph="Together we are a team of highly motivated and skilled students who developed DIEMP as part of our diploma project."
+            paragraph="Together we are a team of highly motivated and skilled students who develope DIEMP as part of our diploma project."
             width="640px"
             center
           />
         </div>
 
         <div className="-mx-4 flex flex-wrap justify-center">
-          {teamData.map((team, i) => (
-            <SingleTeam key={i} team={team} />
+          {teamData.map((person, i) => (
+            <SingleTeam key={i} person={person} />
           ))}
         </div>
       </div>
