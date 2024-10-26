@@ -293,12 +293,12 @@ const SingleTeam = ({ person }: { person: TeamType }) => {
               </a>
             )}
             {person.instagramLink && (
-              <Link href="https://instagram.com/markusstuppnig" target="_blank">
+              <Link href={person.instagramLink} target="_blank">
                 <FaInstagram size={24} />
               </Link>
             )}
             {person.githubLink && (
-              <Link href="https://github.com/Markus-Stuppnig" target="_blank">
+              <Link href={person.githubLink} target="_blank">
                 <FaGithub size={24} />
               </Link>
             )}

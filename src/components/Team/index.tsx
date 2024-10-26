@@ -30,9 +30,7 @@ const teamData: TeamType[] = [
     designation: "Frontend Developer & UI/UX Designer",
     image: "/images/team/benjamin.jpeg",
     email: "bprinc@student.tgm.ac.at",
-    facebookLink: "/#",
-    twitterLink: "/#",
-    instagramLink: "/#",
+    linkedinLink: "https://www.linkedin.com/in/benjamin-princ/",
   },
   {
     id: 4,
@@ -40,9 +38,9 @@ const teamData: TeamType[] = [
     designation: "Data Scientist & AI Expert",
     image: "/images/team/christof.png",
     email: "czlabinger@student.tgm.ac.at",
-    facebookLink: "/#",
-    twitterLink: "/#",
-    instagramLink: "/#",
+    instagramLink: "https://www.instagram.com/stoffi.05/",
+    githubLink: "https://github.com/czlabinger",
+    linkedinLink: "https://www.linkedin.com/in/christof-zlabinger-41b971300/",
   },
 ];
 
