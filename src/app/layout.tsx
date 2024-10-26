@@ -10,6 +10,7 @@ import "../styles/prism-vsc-dark-plus.css";
 import ToasterContext from "./api/contex/ToasetContex";
 import { useEffect, useState } from "react";
 import PreLoader from "@/components/Common/PreLoader";
+import { Analytics } from "@vercel/analytics/react";
 
 export default function RootLayout({
   children,
@@ -19,7 +20,7 @@ export default function RootLayout({
   const [loading, setLoading] = useState<boolean>(true);
 
   useEffect(() => {
-    setTimeout(() => setLoading(false), 1000);
+    setTimeout(() => setLoading(false), 300);
   }, []);
 
   return (
@@ -45,6 +46,7 @@ export default function RootLayout({
               {children}
               <Footer />
               <ScrollToTop />
+              <Analytics />
             </ThemeProvider>
           </SessionProvider>
         )}
