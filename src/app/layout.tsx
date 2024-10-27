@@ -17,12 +17,6 @@ export default function RootLayout({
 }: {
   children: React.ReactNode;
 }) {
-  const [loading, setLoading] = useState<boolean>(true);
-
-  useEffect(() => {
-    setTimeout(() => setLoading(false), 300);
-  }, []);
-
   return (
     <html suppressHydrationWarning={true} className="!scroll-smooth" lang="en">
       {/*
@@ -32,24 +26,20 @@ export default function RootLayout({
       <head />
 
       <body>
-        {loading ? (
-          <PreLoader />
-        ) : (
-          <SessionProvider>
-            <ThemeProvider
-              attribute="class"
-              enableSystem={true}
-              defaultTheme="light"
-            >
-              <ToasterContext />
-              <Header />
-              {children}
-              <Footer />
-              <ScrollToTop />
-              <Analytics />
-            </ThemeProvider>
-          </SessionProvider>
-        )}
+        <SessionProvider>
+          <ThemeProvider
+            attribute="class"
+            enableSystem={true}
+            defaultTheme="light"
+          >
+            <ToasterContext />
+            <Header />
+            {children}
+            <Footer />
+            <ScrollToTop />
+            <Analytics />
+          </ThemeProvider>
+        </SessionProvider>
       </body>
     </html>
   );
