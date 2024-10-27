@@ -7,6 +7,7 @@ import Faq from "@/components/Faq";
 import Features from "@/components/Features";
 import Hero from "@/components/Hero";
 import Team from "@/components/Team";
+import Timeline from "@/components/Timeline";
 import { getAllPosts } from "@/utils/markdown";
 import { Metadata } from "next";
 
@@ -24,6 +25,7 @@ export default function Home() {
       <ScrollUp />
       <Hero />
       <About />
+      <Timeline />
       <Features />
       <CallToAction />
       <Faq />
