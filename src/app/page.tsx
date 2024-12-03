@@ -28,9 +28,9 @@ export default function Home() {
       <Timeline />
       <Features />
       <CallToAction />
-      <Faq />
+      {/* <Faq /> */}
       <Team />
-      <HomeBlogSection posts={posts} />
+      {/* <HomeBlogSection posts={posts} /> */}
       <Contact />
     </main>
   );
