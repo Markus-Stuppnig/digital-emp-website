@@ -46,13 +46,21 @@ const timelineData: Timeline[] = [
   {
     id: 6,
     icon: <RiSpeedUpFill size={36} color="#fff" />,
+    title: "Basis LLM fuer weiteres Training entschieden",
+    date: "12-11-2024",
+    paragraph:
+      "Es wurde ein pre-trained LLM fuer das weitere training getestet und ausgewaehlt.",
+  },
+  {
+    id: 7,
+    icon: <RiSpeedUpFill size={36} color="#fff" />,
     title: "Literaturrecherche abgegeben",
     date: "22-11-2024",
     paragraph:
       "Die Literaturrecherche wurde abgegeben und recherche wurde betrieben.",
   },
   {
-    id: 7,
+    id: 8,
     icon: <RiSpeedUpFill size={36} color="#fff" />,
     title: "Live Audio Streaming",
     date: "26-11-2024",
