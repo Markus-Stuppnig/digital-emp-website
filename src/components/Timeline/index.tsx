@@ -17,7 +17,7 @@ const CallToAction = () => {
               <VerticalTimelineElement
                 key={i}
                 contentStyle={{
-                  background: "rgba(255, 255, 255, 0.9)",
+                  background: "rgba(255, 255, 255, 0.6)",
                   boxShadow: "0px 0px 10px 4px rgba(0, 0, 0, 0.1)",
                   border: "1px solid rgba(0, 0, 0, 0.05)",
                   textAlign: "left",
