@@ -67,5 +67,79 @@ const timelineData: Timeline[] = [
     paragraph:
       "Die Audio Daten werden live ueber einen Websocket in chunks ans Backend gesendet und dort reassembled.",
   },
+  {
+    id: 9,
+    icon: <RiSpeedUpFill size={36} color="#fff" />,
+    title: "State of the Art & Machbarkeit abgegeben.",
+    date: "13-01-2025",
+    paragraph:
+      "Die State of the Art & Machbarkeit wurden abgegeben.",
+  },
+  {
+    id: 10,
+    icon: <RiSpeedUpFill size={36} color="#fff" />,
+    title: "Generation der Trainingsdaten angefangen.",
+    date: "04-02-2025",
+    paragraph:
+      "Die Generation der Trainingsdaten für das fine-tuning des LLMs wurde gestartet.",
+  },
+  {
+    id: 11,
+    icon: <RiSpeedUpFill size={36} color="#fff" />,
+    title: "Frontend kann Nachrichten anzeigen.",
+    date: "04-08-2025",
+    paragraph:
+      "Das Frontend zeigt, nach absenden der Nachricht, einen Ladeindikator und zeigt, sobald das LLM antwortet, die Antwort an.",
+  },
+  {
+    id: 12,
+    icon: <RiSpeedUpFill size={36} color="#fff" />,
+    title: "CI/CD working.",
+    date: "04-02-2025",
+    paragraph:
+      "Continious Integraton / Continious Deployment auf server mit Domain funktionabel.",
+  },
+  // Felix um Februar herum etwas
+  {
+    id: 13,
+    icon: <RiSpeedUpFill size={36} color="#fff" />,
+    title: "Profile page implementiert.",
+    date: "04-03-2025",
+    paragraph:
+      "Die Profile page zeigt welcher Benutzer angemeldet ist, eine möglichkeit sein password zurück zu setzten und seine Account Informationen.",
+  },
+  {
+    id: 14,
+    icon: <RiSpeedUpFill size={36} color="#fff" />,
+    title: "Implementierungsteil abgegeben.",
+    date: "15-03-2025",
+    paragraph:
+      "Der Implementierungsteil der Diplomarbeit wurde f",
+  },
+  {
+    id: 15,
+    icon: <RiSpeedUpFill size={36} color="#fff" />,
+    title: "Implementierungsteil abgegeben.",
+    date: "15-03-2025",
+    paragraph:
+      "Der Implementierungsteil der Diplomarbeit wurde f",
+  },
+  // Felix March
+  {
+    id: 16,
+    icon: <RiSpeedUpFill size={36} color="#fff" />,
+    title: "Renerated text from LLM can be streamed.",
+    date: "07-04-2025",
+    paragraph:
+      "Der Output des LLMs kann während der Generation gestreamed werden.",
+  },
+  {
+    id: 17,
+    icon: <RiSpeedUpFill size={36} color="#fff" />,
+    title: "Online Abgabe der Diplomarbeit.",
+    date: "08-04-2025",
+    paragraph:
+      "Die Diplomarbeit wurde online im ABA-Portal abgegeben.",
+  },
 ];
 export default timelineData;
