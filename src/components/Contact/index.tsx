@@ -46,9 +46,6 @@ const Contact = () => {
                     <p className="text-base text-body-color dark:text-dark-6">
                       mstuppnig@student.tgm.ac.at
                     </p>
-                    {/* <p className="mt-1 text-base text-body-color dark:text-dark-6">
-                      contact@yourdomain.com
-                    </p> */}
                   </div>
                 </div>
               </div>
@@ -102,7 +99,7 @@ const Contact = () => {
                   <input
                     type="text"
                     name="phone"
-                    placeholder="+885 1254 5211 552"
+                    placeholder="+43 800 555 0100"
                     className="bg-transparent w-full border-0 border-b border-[#f1f1f1] p-2 text-dark placeholder:text-body-color/60 focus:border-primary1 focus:outline-none dark:border-dark-3 dark:text-white"
                   />
                 </div>
