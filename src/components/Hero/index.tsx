@@ -207,10 +207,10 @@ const Hero = () => {
               >
                 <div className="mt-16">
                   <Image
-                    src="/images/hero/hero-image.jpg"
+                    src="/images/screenshot.jpeg"
                     alt="hero"
                     className="mx-auto max-w-full rounded-t-xl rounded-tr-xl"
-                    width={845}
+                    width={300}
                     height={316}
                   />
                 </div>
