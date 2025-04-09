@@ -4,8 +4,6 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
 
-import menuData from "./menuData";
-
 const Header = () => {
   const pathUrl = usePathname();
   // Navbar toggle
@@ -55,7 +53,7 @@ const Header = () => {
     <>
       <header
         // style={{ opacity: transperency / 100 }}
-        className={`ud-header bg-primary1 left-0 top-0 z-[999] flex w-full items-center opacity-100`}
+        className={`ud-header left-0 top-0 z-[999] flex w-full items-center bg-primary1 opacity-100`}
       >
         <div className="container">
           <div className="relative flex items-center justify-center">
@@ -96,49 +94,6 @@ const Header = () => {
                     }`}
                   />
                 </button>
-                <nav
-                  id="navbarCollapse"
-                  className={`navbar visibility absolute right-0 top-full z-30 w-[250px] rounded border-[.5px] border-body-color/50 px-6 py-4 opacity-100 duration-300 lg:visible lg:static lg:w-auto lg:border-none lg:!bg-transparent lg:p-0 lg:opacity-100 ${
-                    navbarOpen
-                      ? "visibility top-full opacity-100"
-                      : "invisible top-[120%] opacity-0"
-                  }`}
-                >
-                  <ul className="block lg:flex lg:gap-x-8 xl:gap-x-12">
-                    {menuData.map((menuItem, index) => (
-                      <li key={index} className="group relative">
-                        {pathUrl !== "/" ? (
-                          <Link
-                            onClick={navbarToggleHandler}
-                            scroll={false}
-                            href={menuItem.path}
-                            className={`ud-menu-scroll flex py-2 text-base text-dark group-hover:text-primary dark:text-white dark:group-hover:text-primary lg:inline-flex lg:px-0 lg:py-6 ${
-                              pathUrl === menuItem?.path && "text-primary"
-                            }`}
-                          >
-                            {menuItem.title}
-                          </Link>
-                        ) : (
-                          <Link
-                            scroll={false}
-                            href={menuItem.path}
-                            className={`ud-menu-scroll flex py-2 text-base transition-colors lg:inline-flex lg:px-0 lg:py-6 ${
-                              sticky
-                                ? "text-dark group-hover:text-primary dark:text-white dark:group-hover:text-primary"
-                                : "text-body-color dark:text-white lg:text-white"
-                            } ${
-                              pathUrl === menuItem?.path &&
-                              sticky &&
-                              "!text-primary"
-                            }`}
-                          >
-                            {menuItem.title}
-                          </Link>
-                        )}
-                      </li>
-                    ))}
-                  </ul>
-                </nav>
               </div>
             </div>
             <div className="hidden w-1/3 items-center justify-end pr-16 sm:flex lg:pr-0">
@@ -151,14 +106,14 @@ const Header = () => {
                 <span>
                   <svg
                     viewBox="0 0 16 16"
-                    className="hidden h-[22px] w-[22px] fill-current dark:block"
+                    className="fill-current hidden h-[22px] w-[22px] dark:block"
                   >
                     <path d="M4.50663 3.2267L3.30663 2.03337L2.36663 2.97337L3.55996 4.1667L4.50663 3.2267ZM2.66663 7.00003H0.666626V8.33337H2.66663V7.00003ZM8.66663 0.366699H7.33329V2.33337H8.66663V0.366699V0.366699ZM13.6333 2.97337L12.6933 2.03337L11.5 3.2267L12.44 4.1667L13.6333 2.97337ZM11.4933 12.1067L12.6866 13.3067L13.6266 12.3667L12.4266 11.1734L11.4933 12.1067ZM13.3333 7.00003V8.33337H15.3333V7.00003H13.3333ZM7.99996 3.6667C5.79329 3.6667 3.99996 5.46003 3.99996 7.6667C3.99996 9.87337 5.79329 11.6667 7.99996 11.6667C10.2066 11.6667 12 9.87337 12 7.6667C12 5.46003 10.2066 3.6667 7.99996 3.6667ZM7.33329 14.9667H8.66663V13H7.33329V14.9667ZM2.36663 12.36L3.30663 13.3L4.49996 12.1L3.55996 11.16L2.36663 12.36Z" />
                   </svg>
 
                   <svg
                     viewBox="0 0 23 23"
-                    className={`h-[30px] w-[30px] fill-current text-dark dark:hidden ${
+                    className={`fill-current h-[30px] w-[30px] text-dark dark:hidden ${
                       !sticky && pathUrl === "/" && "text-white"
                     }`}
                   >
