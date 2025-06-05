@@ -27,13 +27,6 @@ const About = () => {
                   designed to support rescue personnel in accurately diagnosing
                   strokes and providing timely assistance.
                 </p>
-
-                <a
-                  href="/blogs"
-                  className="inline-flex items-center justify-center rounded-md bg-primary1 px-7 py-3 text-center text-base font-medium text-white duration-300 hover:bg-primary1/90"
-                >
-                  Know More
-                </a>
               </div>
             </div>
 
@@ -71,7 +64,7 @@ const About = () => {
                         We have
                       </span>
                       <span className="block text-base font-medium text-white text-opacity-70">
-                        Years of experience
+                        Years of IT experience
                       </span>
                     </div>
                     <div>
